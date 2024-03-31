@@ -1,0 +1,146 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(128, 128, 128, 0.5); 
+    z-index: 1000;
+}
+
+.navlist {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px 0; /* Add margin-top and margin-bottom to adjust the position */
+    padding: 0;
+}
+
+.navlist li {
+    margin: 0 20px;
+}
+
+.navlist li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px; /* Decrease font size for navigation links */
+    transition: all 0.3s ease;
+}
+
+.navlist li a:hover {
+    color: red;
+}
+.container img{
+    filter: blur(2px);
+    width: 1500px;
+
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+body{
+    background-color: blueviolet;
+}
+.app{
+    background: #fff ;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto ;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: greenyellow;
+}
+.incorrect{
+    background-color: red;
+}
+.line-gap {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+/* Footer Styles */
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 50px 0; 
+    text-align: center; 
+    width: 100%; 
+    margin: 0; 
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto; /* Center content horizontally */
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px; /* Add space between social links */
+}
+
+.social-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-links li a:hover {
+    color: orange;
+}
